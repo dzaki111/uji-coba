@@ -87,8 +87,44 @@ Bertugas memvalidasi data pendaftaran yang dimasukkan pengguna.
           print(f"Kesalahan validasi: {e}")
           return False
   ```
+### 4. Program Utama
 
----
+Program utama mengimplementasikan logika interaktif dengan menu pilihan:
+Pilihan 1: Memasukkan data baru setelah validasi berhasil.
+Pilihan 2: Menampilkan semua data pendaftaran.
+Pilihan 3: Keluar dari program.
+
+```python
+if __name__ == "__main__":
+    data = Data()
+    view = View()
+    process = Process()
+
+    while True:
+        print("\n1. Tambahkan data")
+        print("2. Tampilkan semua data")
+        print("3. Keluar")
+        pilihan = input("Pilih menu: ")
+
+        if pilihan == "1":
+            record = view.input_data()
+            if record and process.validate_record(record):
+                data.add_record(record)
+                print("Data berhasil ditambahkan.")
+            else:
+                print("Data tidak valid, silakan coba lagi.")
+
+        elif pilihan == "2":
+            records = data.get_all_records()
+            view.show_records(records)
+
+        elif pilihan == "3":
+            print("Program selesai. Terima kasih!")
+            break
+
+        else:
+            print("Pilihan tidak valid, silakan pilih menu yang tersedia.")
+```
 
 ## Alur Program Utama
 
