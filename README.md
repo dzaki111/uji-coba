@@ -135,11 +135,6 @@ Pilih menu: 2
 +----+----------------------+-----------------+----------------------------+
 | No | Nama Lengkap         | Nomor Telepon   | Email                      |
 +----+----------------------+-----------------+----------------------------+
-| 1  | Alice                | 0812345678      | alice@example.com          |
+| 1  | Dzaki                | 0888888888      | Dzaki@gmail.com            |
 +----+----------------------+-----------------+----------------------------+
 ```
-
----
-
-## Lisensi
-Program ini dibuat untuk tujuan pembelajaran dan bebas digunakan.
