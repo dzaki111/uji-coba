@@ -90,9 +90,9 @@ Bertugas memvalidasi data pendaftaran yang dimasukkan pengguna.
 ### 4. Program Utama
 
 Program utama mengimplementasikan logika interaktif dengan menu pilihan:
-Pilihan 1: Memasukkan data baru setelah validasi berhasil.
-Pilihan 2: Menampilkan semua data pendaftaran.
-Pilihan 3: Keluar dari program.
+  - Pilihan 1: Memasukkan data baru setelah validasi berhasil.
+  - Pilihan 2: Menampilkan semua data pendaftaran.
+  - Pilihan 3: Keluar dari program.
 
 ```python
 if __name__ == "__main__":
