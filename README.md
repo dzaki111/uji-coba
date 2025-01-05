@@ -1,6 +1,5 @@
 
-# Program Pendaftaran Sederhana
-
+# LATIHAN 
 ## Deskripsi
 Program ini adalah aplikasi pendaftaran sederhana berbasis teks yang memungkinkan pengguna untuk:
 1. Menambahkan data pendaftaran berupa nama, nomor telepon, dan email.
